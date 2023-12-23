@@ -11,11 +11,12 @@ running = True
 #Points
 score = int(0)
 
-#Definition os player properties
+#Definition of player properties
 player_x = screen.get_width() / 2 
 player_y = screen.get_height() - 100
 player_speed = 5
 
+#Definition of ball properties
 ball_x = randint(10, int(screen.get_width()-10))
 ball_y = 10
 ball_velocity = 3
